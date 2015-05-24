@@ -1,7 +1,11 @@
 # CheckersBoard
+
 KrowdByz Intern Application work
+
 Demo: http://cise.ufl.edu/~xiaoping/
+
 Checkers Board Program Intro
+
 1. The program is designed with Java in Eclipse. You may need to import to Eclipse to run this code;
 2. The program is helped with a .jar file called gagawa-1.0.1.jar. You may find more detailed info here:
    http://code.google.com/p/gagawa/source/browse/trunk/gagawa/
