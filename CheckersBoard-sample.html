@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>KrowdByz Checkers Board - By Xiaoping Li</title>
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+	<div class="container">
+
+		<div class="heading">
+			<div id="player1title">player1</div>
+			<div id="nextmove">next move</div>
+			<div id="player2title">player2</div>
+		</div>
+
+		<div class="board">
+			<script>createBoard()</script>
+		</div>
+
+		<div class="footing">
+			<div id="players">
+				Player1:<input type="text" id="player1" placeholder="Input Player One"><br>
+				Player2:<input type="text" id="player2" placeholder="Input Player Two"><br>
+			</div>
+			<input type="button" id="btn" value="Start!" onclick="startGame()">
+		</div>
+	</div>
+</body>
+</html>
